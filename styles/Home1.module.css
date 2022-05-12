@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500&display=swap');
+
+#getInTouch{
+    text-decoration:none;
+    border-radius: 5px;
+    margin-top: 3rem;
+    width:fit-content;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+    display: block;
+    background: #00EAFF;
+    color: #031A30;
+    cursor:pointer;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+    border: 2px solid #00EAFF;
+}
+#getInTouch > svg{
+    background: #00EAFF;
+    color: #031A30;
+    font-size: 1.5rem;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+#getInTouch:hover{
+    background:#031A30;
+    color: #00EAFF;
+}
+#getInTouch:hover > svg{
+    background:#031A30;
+    color: #00EAFF;
+}
+
+#scrollDownButton{
+    display:flex;
+    align-items:center;
+    gap:3px;
+    text-decoration:none;
+    border-radius: 5px;
+    margin-top: 3rem;
+    width:fit-content;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00EAFF;
+    cursor:pointer;
+}
+
+#main{
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 5rem 0 5rem;
+}
+#main  h5{
+    color:#00EAFF;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+#main h1{
+    color: #DAE4FB;
+    font-size: 4.25rem;
+    font-weight: 700;
+    margin-top:1rem;
+}
+#main h3{
+    color: #96A2BC;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+#main h4{
+    color: #7282a2;
+    font-size: 1.7rem;
+    font-weight: 400;
+    max-width: 65%;
+    margin-top:1.75rem;
+}
+#main h4 > a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #77789e;
+}
+#main .block {
+    display: block;
+    max-width: 60%;
+}
+
+@media only screen and (max-width: 960px) {
+    #main .block {
+    display: block;
+    max-width: 100%;
+    }
+    #main h4{
+    font-size: 1.6rem;
+    max-width: 80%;
+    }
+    #main{
+    padding: 20% 5rem 0 5rem;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    #main{
+        padding: 10rem 1rem 0 1rem;
+    }
+    #main  h5{
+        font-size: 1.5rem;;
+    }
+    #main h1{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    #main h3{
+        font-size: 1.75rem;;
+    }
+    #main h4{
+        font-size: 1.3rem;
+        max-width: 100%;
+    }
+    #main .block {
+        display: block;
+        max-width: 100%;
+    }
+}

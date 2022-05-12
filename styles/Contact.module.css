@@ -1,0 +1,58 @@
+#Contact{
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DAE4FB;
+    padding: 8% 5rem 3% 5rem;
+}
+.block {
+    width: 60%;
+}
+#Contact .heading{
+    display: flex;
+    gap:1rem;
+}
+#Contact .heading h1{
+    color:#00EAFF;
+}
+#Contact .heading div > div{
+    width: 80px;
+    height: 3px;
+    background: #00EAFF;
+}
+#Contact .handles {
+    margin-top: 3rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+#Contact .handles a{
+    text-decoration: none;
+    color: #DAE4FB;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+#Contact .handles a:hover{
+    color:#00EAFF;
+}
+#Contact .handles svg{
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 960px){
+    .block{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 540px){
+    #Contact{
+        padding: 0 1rem 3rem 1rem;
+    }
+    #Contact .handles svg{
+        width: 33px;
+        height: 33px;
+    }
+}

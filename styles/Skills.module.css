@@ -1,0 +1,84 @@
+#Skills{
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DAE4FB;
+    padding: 10% 5rem 0 5rem;
+}
+
+#Skills .heading{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 3rem;
+}
+#Skills .heading h1{
+    color:#00EAFF;
+}
+#Skills .heading div > div{
+    width: 90px;
+    height: 3px;
+    background: #00EAFF;
+}
+
+.Techs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(5rem, 100%), 1fr));
+    row-gap: 1.5rem;
+}
+.Techs svg{
+    width: 50px;
+    height: 50px;
+}
+.block {
+    width: 60%;
+}
+.tooltip {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #00EAFF;
+    color: #031A30;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 1.25rem;
+    padding: 0.1rem 0.75rem;
+  
+    /* Position the tooltip */
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+  }
+  .tooltip:hover svg{
+      transform: scale(1.1);
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    z-index: 1;
+  }
+
+
+@media only screen and (max-width: 960px){
+    .block{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    #Skills{
+        padding: 4rem 1rem 0 1rem;
+    }
+    #Skills .heading{
+        margin-bottom: 2rem;
+    }
+    .Techs svg{
+        width: 40px;
+        height:40px;
+    }
+}

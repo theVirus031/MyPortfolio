@@ -1,0 +1,40 @@
+.Links{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 1rem;
+    background-color: #072340;
+}
+
+.Links a{
+    font-size: 1.5rem;
+    color: #00EAFF;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    background-color: #072340;
+    transition-timing-function: ease-in;
+    transition: 0.25s;
+}
+.Links svg{
+    background-color: #072340;
+}
+
+.Links a:first-child{
+    background-color: #072340;
+    color:red;
+    gap:2px;
+    font-size:1rem;
+}
+.Links a:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+/* @media only screen and (max-width: 960px){
+    #ProjectCard_card__Ilp8p{
+        width: 15rem;
+    }
+} */

@@ -1,0 +1,49 @@
+#Projects{
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DAE4FB;
+    padding: 8% 5rem 0 5rem;
+}
+
+#Projects .heading{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 3rem;
+}
+#Projects .heading h1{
+    color:#00EAFF;
+}
+#Projects .heading div > div{
+    width: 120px;
+    height: 3px;
+    background: #00EAFF;
+}
+.block {
+    width: 60%;
+}
+.ProjectLists{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(25rem, 100%), 1fr));
+    row-gap: 1.5rem;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 960px){
+    .block{
+        width:100%
+    }
+}
+@media only screen and (max-width: 565px){
+    .ProjectLists{
+    transform: scale(0.9);
+    row-gap: 0.75rem;
+    }
+    #Projects{
+    padding: 4rem 1rem 0 1rem;
+    }
+    #Projects .heading{
+        margin-bottom: 0;
+    }
+}
