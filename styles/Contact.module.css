@@ -4,17 +4,28 @@
     justify-content: center;
     align-items: center;
     color: #DAE4FB;
-    padding: 8% 5rem 3% 5rem;
+    padding: 2% 5rem 3% 5rem;
+    background: #072340;
 }
 .block {
     width: 60%;
+    background: #072340;
 }
 #Contact .heading{
     display: flex;
+    background: #072340;
     gap:1rem;
+
+    /* temporary */
+    justify-content: center;
 }
 #Contact .heading h1{
     color:#00EAFF;
+    background: #072340;
+}
+
+#Contact .heading div,#Contact .heading div h2{
+    background: #072340;
 }
 #Contact .heading div > div{
     width: 80px;
@@ -27,6 +38,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    background: #072340;
 }
 #Contact .handles a{
     text-decoration: none;
@@ -40,19 +52,23 @@
 #Contact .handles svg{
     width: 40px;
     height: 40px;
+    background: #072340;
 }
 
 @media only screen and (max-width: 960px){
     .block{
         width:100%;
     }
+    #Contact{
+    padding: 3% 5rem;
+    }
 }
 @media only screen and (max-width: 540px){
     #Contact{
-        padding: 0 1rem 3rem 1rem;
+        padding: 2rem 1rem;
     }
     #Contact .handles svg{
-        width: 33px;
-        height: 33px;
+        width: 32px;
+        height: 32px;
     }
 }
