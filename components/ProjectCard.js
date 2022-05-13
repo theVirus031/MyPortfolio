@@ -19,7 +19,6 @@ const ProjectCard = ({name, content, tech, img, liveWebsite, CodeLink}) =>{
               width={500}
               height={300}
               quality={50}
-              borderRadius={10}
             />
             </a>
           <Card.Body style={{ background: '#072340' }}>
