@@ -4,10 +4,16 @@ import About from "../components/About"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
+import Head from 'next/head'
+
 
 const Home = () => {
   return (
       <div>
+          <Head>
+            <title>Vishwas031</title>
+            <link rel="icon" href="/logo.jpg" />
+          </Head>
           <Navv/>
           <Home1 id='Home'/>
           <About id='About'/>
