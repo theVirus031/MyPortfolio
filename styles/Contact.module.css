@@ -12,16 +12,11 @@
 #Contact .heading{
     display: flex;
     gap:1rem;
-
-    /* temporary */
-    /* justify-content: center; */
 }
 #Contact .heading h1{
     color:#00EAFF;
 }
 
-#Contact .heading div,#Contact .heading div h2{
-}
 #Contact .heading div > div{
     width: 80px;
     height: 3px;

@@ -20,8 +20,6 @@ const Contact = () =>{
         <div id={ContactStyles.Contact}>
             <div className={ContactStyles.block}>
                     <div className={ContactStyles.heading}>
-
-                        {/* temporary */}
                         <h1>04.</h1>
                         <div><h2>Contact Me</h2><div></div></div>
                     </div>
