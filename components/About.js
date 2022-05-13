@@ -27,15 +27,12 @@ const About = () =>{
                 </div>
                 <div className={AboutStyles.main}>
                     <div className={AboutStyles.content}>
-                        I am a passionate Full Stack Developer who loves to explore new technologies.
-                    
+                    I am a passionate Full Stack Developer who loves to explore new technologies and find solutions to new problems.
                         <br/>
                         <br/>
-                        How to Change Background Color while Highlighting a Text
-                        Example of changing the background color with
-                        How to Change Text Shadow Color while Selecting a Text
+                        When offline, I like to listen to songs, do sketching, nature photography, and play sports like badminton, and football, etc.
                         <br/>
-                        <a href='#CV' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
+                        <a href='/Vishwas_Singh_Resume.pdf' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
                     </div>
                     <div className={AboutStyles.photo}>
                         <Image

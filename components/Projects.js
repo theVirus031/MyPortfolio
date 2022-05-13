@@ -24,11 +24,11 @@ const Projects = () =>{
                     <div><h2>My Projects</h2><div></div></div>
                 </div>
                 <div className={ProjectsStyles.ProjectLists}>
-                    <ProjectCard name='MyGrades' img='/joshua-koblin-eqW1MPinEV4-unsplash.jpg' content='acasnooavnoanvonadonvidannvoinadnoineion32nr24noinvdnavndionvai' tech='MERN, Node-RSA'/>
-                    <ProjectCard name='Dubify' img='/joshua-koblin-eqW1MPinEV4-unsplash.jpg' content='acasnooavnoanvonadonvidannvoinadnoineion32nr24noinvdnavndionvai' tech='HTML, CSS, JS, NodeJS, Express, ElephanSQL, Firebase'/>
-                    <ProjectCard name='Notes-Maker-031' img='/joshua-koblin-eqW1MPinEV4-unsplash.jpg' content='acasnooavnoanvonadonvidannvoinadnoineion32nr24noinvdnavndionvai' tech='MERN, Node-RSA'/>
-                    <ProjectCard name='Notes-Maker-031' img='/joshua-koblin-eqW1MPinEV4-unsplash.jpg' content='acasnooavnoanvonadonvidannvoinadnoineion32nr24noinvdnavndionvai' tech='MERN, Node-RSA'/>
-                    <ProjectCard name='Notes-Maker-031' img='/joshua-koblin-eqW1MPinEV4-unsplash.jpg' content='acasnooavnoanvonadonvidannvoinadnoineion32nr24noinvdnavndionvai' tech='MERN, Node-RSA'/>
+                    <ProjectCard name='MyGrades' img='/MyGrades.png' content='A MERN Result Checking Website to Check Results in a Highly Secured Environment. Asymmetric Ecryption is used. The result is encrypted using the public key of the user and can only be accessed through his/her private key.' CodeLink='https://github.com/vishwas031/my-grades' tech='MERN, Node-RSA, Bcrypt, Google Cloud Platform'/>
+                    <ProjectCard name='Dubify' img='/Dubify.png' content='An Instagram clone. It has features like Follow/Unfollow, Posts, Like, Comment, Repost (share), Light/Dark theme, Stories (1-day validity), Edit profile, Search User, Delete Posts.' CodeLink='https://github.com/vishwas031/chatting-website-frontend' liveWebsite='https://webkirti-social-media-website.netlify.app/' tech='NodeJS, Express, PostgreSQL, JWT tokens, Firebase'/>
+                    <ProjectCard name='Notes-Taker' img='/NotesMaker.png' content='A Website to Store and Manage Your Notes. Users can Login/Signup and create, delete, edit, or save their notes to their account.' CodeLink='https://github.com/vishwas031/Note-Making-Website' liveWebsite='https://notes-maker-031.netlify.app/' tech='HTML, CSS, JS, Bcrypt, JWT Token'/>
+                    <ProjectCard name='Placement Management System' img='/PlacementManagement.png' content='An OOPS-based project aims at managing the placement statistics of a college. It allows you to compare statistics from various colleges in one place.' CodeLink='https://github.com/vishwas031/Placement-Management-System' tech='C++, OOPS'/>
+                    <ProjectCard name='Portfolio' img='/Portfolio.png' content='Personal portfolio website. Created using NextJS and hosted on Vercel.' CodeLink='https://github.com/vishwas031/my-portfolio' liveWebsite='https://vishwas031.vercel.app/' tech='ReactJS, NextJS, framer-motion, Javascript, bootstrap, Vercel'/>
                 </div>
             </div>
         </div>
