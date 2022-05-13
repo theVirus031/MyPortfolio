@@ -5,6 +5,7 @@ import Skills from "../components/Skills"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 import Head from 'next/head'
+import Mask from "../components/Mask"
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <link rel="icon" href="/logo.jpg" />
           </Head>
           <Navv/>
+          <Mask/>
           <Home1 id='Home'/>
           <About id='About'/>
           <Skills id='Skills'/>
