@@ -6,7 +6,7 @@
     margin-top: 3rem;
     width:fit-content;
     padding: 0.5rem 1rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 900;
     display: block;
     background: #00EAFF;
@@ -41,14 +41,14 @@
     margin-top: 3rem;
     width:fit-content;
     padding: 1rem 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #00EAFF;
     cursor:pointer;
 }
 
 #main{
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,22 +57,22 @@
 #main  h5{
     color:#00EAFF;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 #main h1{
     color: #DAE4FB;
-    font-size: 4.25rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-top:1rem;
 }
 #main h3{
     color: #96A2BC;
     font-weight: 600;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 #main h4{
     color: #7282a2;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 400;
     max-width: 65%;
     margin-top:1.75rem;
@@ -93,7 +93,7 @@
     max-width: 100%;
     }
     #main h4{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     max-width: 80%;
     }
     #main{
@@ -106,17 +106,17 @@
         padding: 10rem 1rem 0 1rem;
     }
     #main  h5{
-        font-size: 1.5rem;;
+        font-size: 1.4rem;;
     }
     #main h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 600;
     }
     #main h3{
-        font-size: 1.75rem;;
+        font-size: 1.5rem;;
     }
     #main h4{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         max-width: 100%;
     }
     #main .block {

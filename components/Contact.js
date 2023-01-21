@@ -20,7 +20,7 @@ const Contact = () =>{
         <div id={ContactStyles.Contact}>
             <div className={ContactStyles.block}>
                     <div className={ContactStyles.heading}>
-                        <h1>04.</h1>
+                        <h1>05.</h1>
                         <div><h2>Contact Me</h2><div></div></div>
                     </div>
                     <ul className={ContactStyles.handles}>
@@ -28,7 +28,7 @@ const Contact = () =>{
                         <li className={ContactStyles.icon}><a href="https://github.com/vishwas031"><SiGithub/></a></li>
                         <li className={ContactStyles.icon}><a href = "mailto: pvt031vishwas@gmail.com"><SiGmail/></a></li>
                         <li className={ContactStyles.icon}><a href="https://twitter.com/the_vishwas031"><SiTwitter/></a></li>
-                        <li className={ContactStyles.icon}><a href="https://www.instagram.com/the_vishwas031/"><SiInstagram/></a></li>
+                        <li className={ContactStyles.icon}><a href="https://www.instagram.com/the_virus031/"><SiInstagram/></a></li>
                     </ul>
             </div>
         </div>

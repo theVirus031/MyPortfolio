@@ -14,6 +14,7 @@ const Navv = ()=>{
                   <Nav id={NavStyles.navv}>
                     <Link href="#about"><a>About<span></span></a></Link>
                     <Link href="#skills"><a>Skills<span></span></a></Link>
+                    <Link href="#experience" ><a>Experience<span></span></a></Link>
                     <Link href="#projects"><a>Projects<span></span></a></Link>
                     <Link href="#contact" ><a>Contact<span></span></a></Link>
                     <span><a href="/Vishwas_Singh_Resume.pdf" download>Resume</a></span>

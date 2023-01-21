@@ -1,6 +1,6 @@
 import MaskStyles from '../styles/Mask.module.css'
 import { motion } from 'framer-motion'
-import {SiInstagram} from 'react-icons/si'
+// import {SiInstagram} from 'react-icons/si'
 import {FiLinkedin,FiGithub,FiTwitter} from 'react-icons/fi'
 const variants = {
     hidden: { opacity: 0, x: 0, y: 20 },
@@ -24,7 +24,7 @@ const Mask = ()=>{
                         <li className={MaskStyles.icon}><a href="https://www.linkedin.com/in/vishwas-singh-3623881b7/"><FiLinkedin/></a></li>
                         <li className={MaskStyles.icon}><a href="https://github.com/vishwas031"><FiGithub/></a></li>
                         <li className={MaskStyles.icon}><a href="https://twitter.com/the_vishwas031"><FiTwitter/></a></li>
-                        <li className={MaskStyles.con}><a href="https://www.instagram.com/the_vishwas031/"><SiInstagram/></a></li>
+                        {/* <li className={MaskStyles.con}><a href="https://www.instagram.com/the_virus031/"><SiInstagram/></a></li> */}
                     </ul>
                     <div></div>
             </div>

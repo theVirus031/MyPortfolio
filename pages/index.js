@@ -6,6 +6,7 @@ import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 import Head from 'next/head'
 import Mask from "../components/Mask"
+import Experience from "../components/Experience"
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
           <Home1 id='Home'/>
           <About id='About'/>
           <Skills id='Skills'/>
+          <Experience/>
           <Projects/>
           <Contact/>
       </div>

@@ -24,7 +24,7 @@ const Home1 = () =>{
             <div className={Home1Styles.block}>
                 <h5>Hi, my name is</h5>
                 <h1>Vishwas Singh</h1>
-                <h3>Full Stack Web Developer and currently learning & exploring Blockchain.</h3>
+                <h3>Full Stack Web Developer and currently learning & exploring Ethereum Blockchain.</h3>
                 <h4>Currently, I am an Undergraduate student at the <a href='https://www.iiitm.ac.in/index.php/en/'>Indian Institute of Information Technology, Gwalior</a> majoring in Computer Science and Engineering. </h4>
                 <Link href='#contact'><a id={Home1Styles.getInTouch}>Get In touch <TiArrowRightOutline/></a></Link>
                 <Link href='#about'><a id={Home1Styles.scrollDownButton}><CgMouse/>Scroll Down <HiOutlineChevronDoubleDown/></a></Link>

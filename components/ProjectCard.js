@@ -22,8 +22,8 @@ const ProjectCard = ({name, content, tech, img, liveWebsite, CodeLink}) =>{
             />
             </a>
           <Card.Body style={{ background: '#072340' }}>
-            <Card.Title style={{ background: '#072340', fontSize: '1.4rem' }}>{name}</Card.Title>
-            <Card.Text style={{ background: '#072340' }}>
+            <Card.Title style={{ background: '#072340', fontSize: '1.4rem'}}>{name}</Card.Title>
+            <Card.Text style={{ background: '#072340', color: '#96A2BC' }}>
               {content}
             </Card.Text>
             <div style={{color: '#7C7DAC',background: '#072340'}}>{tech}</div>
