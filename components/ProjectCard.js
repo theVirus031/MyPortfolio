@@ -6,7 +6,7 @@ import {IoLogoGithub} from 'react-icons/io'
 
 const ProjectCard = ({name, content, tech, img, liveWebsite, CodeLink}) =>{
     return(
-        <Card style={{ width: '22rem', padding: '1.25rem 1rem 0.75rem 1rem',borderRadius: '10px', background: '#072340', color: '#DAE4FB'}} id={ProjectCardStyles.card}>
+        <Card style={{ width: '23rem', padding: '1.25rem 1rem 0.75rem 1rem',borderRadius: '10px', background: '#072340', color: '#DAE4FB'}} id={ProjectCardStyles.card}>
           <div className={ProjectCardStyles.Links}>
               <a href={liveWebsite} rel='noreferrer' target='_blank'><CgMediaLive/> Live</a>
               <a href={CodeLink} rel='noreferrer' target='_blank'><IoLogoGithub/></a>
