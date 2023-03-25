@@ -32,14 +32,14 @@ const About = () =>{
                         <br/>
                         When offline, I like to listen to songs, do sketching, nature photography, and play sports like badminton, and football, etc.
                         <br/>
-                        <a href='/Vishwas_Singh_Resume.pdf' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
+                        <a target={"_blank"} href='https://drive.google.com/file/d/1SDVPUM9621jG9fYMZX32qtEWNPpwlrfT/view?usp=sharing' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
                     </div>
                     <div className={AboutStyles.photo}>
                         <Image
-                            src="/profile_photo1-removebg (2).png"
-                            alt="Picture of the author"
-                            width={225}
-                            height={225}
+                            src="/me.png"
+                            alt="My Picture"
+                            width={200}
+                            height={200}
                             quality={100}
                         />
                     </div>

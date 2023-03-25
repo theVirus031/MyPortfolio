@@ -18,7 +18,7 @@ const Navv = ()=>{
                     <Link href="#experience" ><a>Experience<span></span></a></Link>
                     <Link href="#projects"><a>Projects<span></span></a></Link>
                     <Link href="#contact" ><a>Contact<span></span></a></Link>
-                    <span><a href="/Vishwas_Singh_Resume.pdf" download>Resume</a></span>
+                    <span><a target={"_blank"} href="https://drive.google.com/file/d/1SDVPUM9621jG9fYMZX32qtEWNPpwlrfT/view?usp=sharing" download>Resume</a></span>
                   </Nav>
                 </Navbar.Collapse>
             </Container>

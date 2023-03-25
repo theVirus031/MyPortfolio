@@ -20,18 +20,18 @@
     background: #00EAFF;
 }
 .photo{
-    background: #DAE4FB;
     width: fit-content;
     height: fit-content;
     border: 3px solid #00EAFF;
     border-radius: 50%;
     overflow: hidden;
+    background-color: white;
+    z-index: 1;
 }
 .photo img{
-    max-width: 225px;
-    max-height: 225px;
-    transform: scale(1.25);
-    object-fit: fill;
+    transform: translate(0,0.5rem);
+    background-color: white;
+    z-index: 10;
 }
 .content{
     margin-top: 3rem;
