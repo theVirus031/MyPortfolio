@@ -32,7 +32,7 @@ const About = () =>{
                         <br/>
                         When offline, I like to listen to songs, do sketching, nature photography, and play sports like badminton, and football, etc.
                         <br/>
-                        <a target={"_blank"} href='https://drive.google.com/file/d/1SDVPUM9621jG9fYMZX32qtEWNPpwlrfT/view?usp=sharing' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
+                        <a href='https://drive.google.com/file/d/1SDVPUM9621jG9fYMZX32qtEWNPpwlrfT/view?usp=sharing' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
                     </div>
                     <div className={AboutStyles.photo}>
                         <Image
