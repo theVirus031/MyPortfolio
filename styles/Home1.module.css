@@ -7,7 +7,7 @@
     width:fit-content;
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 700;
     display: block;
     background: #00EAFF;
     color: #031A30;
@@ -42,13 +42,13 @@
     width:fit-content;
     padding: 1rem 0;
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #00EAFF;
     cursor:pointer;
 }
 
 #main{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,30 +56,30 @@
 }
 #main  h5{
     color:#00EAFF;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.4rem;
 }
 #main h1{
     color: #DAE4FB;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 400;
     margin-top:1rem;
 }
 #main h3{
     color: #96A2BC;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 2rem;
 }
 #main h4{
     color: #7282a2;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     max-width: 65%;
     margin-top:1.75rem;
 }
 #main h4 > a{
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     color: #77789e;
 }
 #main .block {
@@ -110,7 +110,7 @@
     }
     #main h1{
         font-size: 2.5rem;
-        font-weight: 600;
+        font-weight: 500;
     }
     #main h3{
         font-size: 1.5rem;;

@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav} from "react-bootstrap";
+import {AiOutlineBars} from 'react-icons/ai'
 import NavStyles from '../styles/Nav.module.css'
 import Link from "next/link";
 
@@ -7,7 +8,7 @@ const Navv = ()=>{
         <Navbar collapseOnSelect expand="lg" style={{zIndex:1}} id={NavStyles.bgColor} >
             <Container>
                 <Navbar.Brand href="#" id={NavStyles.logoo}>Vs<span>.</span></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" id="navIcon"><AiOutlineBars  color="#DAE4FB"/></Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="me-auto">
                   </Nav>
