@@ -27,10 +27,10 @@ const About = () =>{
                 </div>
                 <div className={AboutStyles.main}>
                     <div className={AboutStyles.content}>
-                    Hello, I'm a dynamic and results-oriented full stack developer who is passionate about transforming innovative ideas into reality. 
+                    Hello, I&apos;m a dynamic and results-oriented full stack developer who is passionate about transforming innovative ideas into reality. 
                     <br/>
                     <br/>
-                    As a full stack developer, I'm ready to contribute my skills and enthusiasm to create exceptional digital experiences that leave a lasting impact.
+                    I&apos;m ready to contribute my skills and enthusiasm to create exceptional digital experiences that leave a lasting impact.
                     <br/>
                     <a href='https://drive.google.com/file/d/1SDVPUM9621jG9fYMZX32qtEWNPpwlrfT/view?usp=sharing' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
                     </div>
