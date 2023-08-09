@@ -20,12 +20,6 @@
     background-color: #072340;
 }
 
-.Links a:first-child{
-    background-color: #072340;
-    color:red;
-    gap:2px;
-    font-size:1rem;
-}
 .Links a:hover
 {
     transform: scale(1.1);

@@ -27,12 +27,12 @@ const About = () =>{
                 </div>
                 <div className={AboutStyles.main}>
                     <div className={AboutStyles.content}>
-                    I am a passionate Full Stack Developer who loves to explore new technologies and find solutions to new problems.
-                        <br/>
-                        <br/>
-                        When offline, I like to listen to songs, do sketching, nature photography, and play sports like badminton, and football, etc.
-                        <br/>
-                        <a href='https://drive.google.com/file/d/1SDVPUM9621jG9fYMZX32qtEWNPpwlrfT/view?usp=sharing' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
+                    Hello, I'm a dynamic and results-oriented full stack developer who is passionate about transforming innovative ideas into reality. 
+                    <br/>
+                    <br/>
+                    As a full stack developer, I'm ready to contribute my skills and enthusiasm to create exceptional digital experiences that leave a lasting impact.
+                    <br/>
+                    <a href='https://drive.google.com/file/d/1SDVPUM9621jG9fYMZX32qtEWNPpwlrfT/view?usp=sharing' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
                     </div>
                     <div className={AboutStyles.photo}>
                         <Image

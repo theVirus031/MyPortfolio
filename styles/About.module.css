@@ -30,6 +30,7 @@
 }
 .photo img{
     transform: translate(0,0.5rem);
+    object-fit: cover;
     background-color: white;
     z-index: 10;
 }

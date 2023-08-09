@@ -1,6 +1,6 @@
 import SkillsStyles from '../styles/Skills.module.css'
 import {FaReact,FaSass,FaBootstrap,FaNodeJs,FaPython} from 'react-icons/fa'
-import {SiRedux,SiTailwindcss,SiSolidity,SiAdobephotoshop,SiNpm,SiGit,SiVercel,SiGithubactions,SiMaterialui,SiGitlab,SiLinux,SiUbuntu,SiGithub,SiPostman,SiNextdotjs,SiExpress,SiHeroku,SiPhotopea,SiCplusplus,SiTypescript,SiCanva,SiJavascript,SiNetlify,SiMongodb,SiPostgresql,SiGooglecloud,SiFirebase} from 'react-icons/si'
+import {SiDocker,SiRedux,SiTailwindcss, SiGnubash, SiLatex, SiTerraform,SiSolidity,SiAdobephotoshop,SiNpm,SiGit,SiVercel,SiGithubactions,SiMaterialui,SiGitlab,SiLinux,SiUbuntu,SiGithub,SiPostman,SiNextdotjs,SiExpress,SiHeroku,SiPhotopea,SiCplusplus,SiTypescript,SiCanva,SiJavascript,SiNetlify,SiMongodb,SiPostgresql,SiGooglecloud,SiFirebase} from 'react-icons/si'
 import {ImCss3, ImHtmlFive2} from 'react-icons/im'
 import {GrMysql} from 'react-icons/gr'
 import {CgFigma} from 'react-icons/cg'
@@ -31,7 +31,8 @@ const Skills = () =>{
                             <div className={SkillsStyles.tooltip}><SiCplusplus/><span className={SkillsStyles.tooltiptext}>C++</span></div>
                             <div className={SkillsStyles.tooltip}><SiJavascript/><span className={SkillsStyles.tooltiptext}>Javascript</span></div>
                             <div className={SkillsStyles.tooltip}><SiTypescript/><span className={SkillsStyles.tooltiptext}>Typescript</span></div>
-                            <div className={SkillsStyles.tooltip}><FaPython/><span className={SkillsStyles.tooltiptext}>Python</span></div>
+                            <div className={SkillsStyles.tooltip}><SiGnubash/><span className={SkillsStyles.tooltiptext}>Bash</span></div>
+                            {/* <div className={SkillsStyles.tooltip}><FaPython/><span className={SkillsStyles.tooltiptext}>Python</span></div> */}
                             <div className={SkillsStyles.tooltip}><FaReact/><span className={SkillsStyles.tooltiptext}>React</span></div>
                             <div className={SkillsStyles.tooltip}><SiRedux/><span className={SkillsStyles.tooltiptext}>Redux</span></div>
                             <div className={SkillsStyles.tooltip}><SiNextdotjs/><span className={SkillsStyles.tooltiptext}>NextJs</span></div>
@@ -50,9 +51,12 @@ const Skills = () =>{
                             <div className={SkillsStyles.tooltip}><SiSolidity/><span className={SkillsStyles.tooltiptext}>Solidity</span></div>
                             <div className={SkillsStyles.tooltip}><SiGit/><span className={SkillsStyles.tooltiptext}>Git</span></div>
                             <div className={SkillsStyles.tooltip}><SiGithub/><span className={SkillsStyles.tooltiptext}>GitHub</span></div>
-                            <div className={SkillsStyles.tooltip}><SiGithubactions/><span className={SkillsStyles.tooltiptext}>GitHub Actions</span></div>
+                            {/* <div className={SkillsStyles.tooltip}><SiGithubactions/><span className={SkillsStyles.tooltiptext}>GitHub Actions</span></div> */}
                             <div className={SkillsStyles.tooltip}><SiGitlab/><span className={SkillsStyles.tooltiptext}>GitLab</span></div>
+                            <div className={SkillsStyles.tooltip}><SiLatex/><span className={SkillsStyles.tooltiptext}>Latex</span></div>
                             <div className={SkillsStyles.tooltip}><SiGooglecloud/><span className={SkillsStyles.tooltiptext}>Google Cloud Platform</span></div>
+                            <div className={SkillsStyles.tooltip}><SiDocker/><span className={SkillsStyles.tooltiptext}>Docker</span></div>
+                            <div className={SkillsStyles.tooltip}><SiTerraform/><span className={SkillsStyles.tooltiptext}>Terrafrom</span></div>
                             <div className={SkillsStyles.tooltip}><SiFirebase/><span className={SkillsStyles.tooltiptext}>Firebase</span></div>
                             <div className={SkillsStyles.tooltip}><SiPostman/><span className={SkillsStyles.tooltiptext}>Postman</span></div>
                             <div className={SkillsStyles.tooltip}><SiHeroku/><span className={SkillsStyles.tooltiptext}>Heroku</span></div>

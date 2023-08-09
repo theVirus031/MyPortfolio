@@ -8,7 +8,7 @@ const ProjectCard = ({name, content, tech, img, liveWebsite, CodeLink}) =>{
     return(
         <Card style={{ width: '23rem', padding: '1.25rem 1rem 0.75rem 1rem',borderRadius: '10px', background: '#072340', color: '#DAE4FB'}} id={ProjectCardStyles.card}>
           <div className={ProjectCardStyles.Links}>
-              <a href={liveWebsite} rel='noreferrer' target='_blank'><CgMediaLive/> Live</a>
+              {/* <a href={liveWebsite} rel='noreferrer' target='_blank'><CgMediaLive/> Live</a> */}
               <a href={CodeLink} rel='noreferrer' target='_blank'><IoLogoGithub/></a>
           </div>
           <br/>
@@ -17,7 +17,7 @@ const ProjectCard = ({name, content, tech, img, liveWebsite, CodeLink}) =>{
               src= {img}
               alt={name}
               width={500}
-              height={300}
+              height={250}
               quality={50}
             />
             </a>

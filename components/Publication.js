@@ -8,9 +8,9 @@ const variants = {
     exit: { opacity: 0, x: -0, y: 20 }
 }
 
-const Experience = () =>{
+const Publication = () =>{
     return(
-        <div id='experience'>
+        <div id='publication'>
         <motion.div
             initial="hidden"
             animate="enter"
@@ -21,11 +21,13 @@ const Experience = () =>{
         <div id={ProjectsStyles.Projects}>
             <div className={ProjectsStyles.block}>
                 <div className={ProjectsStyles.heading}>
-                    <h1>03.</h1>
-                    <div><h2>Experience</h2><div></div></div>
+                    <h1>04.</h1>
+                    <div><h2>Publication</h2><div></div></div>
                 </div>
                 <div className={ProjectsStyles.ExpCardsPostion}>
-                <ExperienceCard position={'Full-stack Developer'} date={'dec 2022'} company={'Freelance work'}/>
+                <a href='https://ieeexplore.ieee.org/document/9997843' rel='noreferrer' target='_blank' style={{textDecoration: "none"}}>
+                <ExperienceCard position={'Conference Paper'} date={'2022'} company={'Result Publishing System Using Asymmetric Key Encryption'}/>
+                </a>
                 </div>
             </div>
         </div>
@@ -34,4 +36,4 @@ const Experience = () =>{
     )
 }
 
-export default Experience;
+export default Publication;

@@ -7,11 +7,12 @@ import Contact from "../components/Contact"
 import Head from 'next/head'
 import Mask from "../components/Mask"
 import Experience from "../components/Experience"
+import Publication from "../components/Publication"
 
 
 const Home = () => {
   return (
-      <div>
+      <>
           <Head>
             <title>Vishwas031</title>
             <link rel="icon" href="/logo.jpg" />
@@ -22,9 +23,10 @@ const Home = () => {
           <About id='About'/>
           <Skills id='Skills'/>
           <Experience/>
+          <Publication/>
           <Projects/>
           <Contact/>
-      </div>
+      </>
   )
 }
 export default Home
