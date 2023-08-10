@@ -20,7 +20,7 @@ const Projects = () =>{
         <div id={ProjectsStyles.Projects}>
             <div className={ProjectsStyles.block}>
                 <div className={ProjectsStyles.heading}>
-                    <h1>04.</h1>
+                    <h1>03.</h1>
                     <div><h2>My Projects</h2><div></div></div>
                 </div>
                 <div className={ProjectsStyles.ProjectLists}>

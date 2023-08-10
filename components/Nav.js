@@ -15,11 +15,11 @@ const Navv = ()=>{
                   <Nav id={NavStyles.navv}>
                     <Link href="#about"><a>About<span></span></a></Link>
                     <Link href="#skills"><a>Skills<span></span></a></Link>
+                    <Link href="#projects"><a>Projects<span></span></a></Link>
                     <Link href="#experience" ><a>Experience<span></span></a></Link>
                     <Link href="#publication" ><a>Publications<span></span></a></Link>
-                    <Link href="#projects"><a>Projects<span></span></a></Link>
                     <Link href="#contact" ><a>Contact<span></span></a></Link>
-                    <span><a href="https://drive.google.com/file/d/1wUusbohNmzbgDv1nP71je7dKYCKaX-Z2/view?usp=sharing" download>Resume</a></span>
+                    <span><a href="https://drive.google.com/file/d/17y1D7TumehiPC5BjSsZfGtFVX1Lx-nkM/view?usp=sharing" download>Resume</a></span>
                   </Nav>
                 </Navbar.Collapse>
             </Container>

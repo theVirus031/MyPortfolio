@@ -32,7 +32,7 @@ const About = () =>{
                     <br/>
                     I&apos;m ready to contribute my skills and enthusiasm to create exceptional digital experiences that leave a lasting impact.
                     <br/>
-                    <a href='https://drive.google.com/file/d/1wUusbohNmzbgDv1nP71je7dKYCKaX-Z2/view?usp=sharing' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
+                    <a href='https://drive.google.com/file/d/17y1D7TumehiPC5BjSsZfGtFVX1Lx-nkM/view?usp=sharing' id={Home1Styles.getInTouch}>Download CV <HiOutlineDownload/></a>
                     </div>
                     <div className={AboutStyles.photo}>
                         <Image

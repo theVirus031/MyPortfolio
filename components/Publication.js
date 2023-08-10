@@ -21,7 +21,7 @@ const Publication = () =>{
         <div id={ProjectsStyles.Projects}>
             <div className={ProjectsStyles.block}>
                 <div className={ProjectsStyles.heading}>
-                    <h1>04.</h1>
+                    <h1>05.</h1>
                     <div><h2>Publication</h2><div></div></div>
                 </div>
                 <div className={ProjectsStyles.ExpCardsPostion}>

@@ -22,9 +22,9 @@ const Home = () => {
           <Home1 id='Home'/>
           <About id='About'/>
           <Skills id='Skills'/>
+          <Projects/>
           <Experience/>
           <Publication/>
-          <Projects/>
           <Contact/>
       </>
   )

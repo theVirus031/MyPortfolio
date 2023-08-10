@@ -33,7 +33,7 @@ const Contact = () =>{
         <div id={ContactStyles.Contact}>
             <div className={ContactStyles.block}>
                     <div className={ContactStyles.heading}>
-                        <h1>05.</h1>
+                        <h1>06.</h1>
                         <div><h2>Contact Me</h2><div></div></div>
                     </div>
                     <br/>
